@@ -94,7 +94,6 @@ def grades_lecturers(lecturers, course):         # считаем среднее
     else:
         rating_lec = 'ошибка'
     return rating_lec
-
 # создаем студентов и назначаем курсы
 best_student = Student('Ruoy', 'Eman', 'your_gender')
 best_student.courses_in_progress += ['Python', 'Java']
